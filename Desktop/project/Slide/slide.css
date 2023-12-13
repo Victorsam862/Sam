@@ -1,0 +1,77 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.container{
+    width: 100%;
+    background-color: rgb(231, 227, 246);
+    margin-top: 300px;
+    box-shadow: 3px 0px 0px 0px purple;
+}
+
+.con-flex{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cont1{
+    background-color: white;
+    width: 28%;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 5px 30px;
+    height: 15vh;
+    box-shadow: 2px 2px 2px 2px rgb(167, 161, 193);
+}
+.cont2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.span1{
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.spa{
+    position: absolute;
+    left: 92%;
+    top: 55%;
+}
+.icon{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    font-size: 25px;
+}
+.one{
+    color: rgb(149, 138, 201);
+    background-color: rgb(231, 227, 246);
+    padding: 13px;
+    border-radius: 5px;
+}
+.two{
+    color: rgb(255, 218, 7);
+    background-color: blanchedalmond;
+    padding: 13px;
+    border-radius: 5px;
+}
+.three{
+    color: rgb(206, 56, 106);
+    background-color: rgb(241, 184, 202);
+    padding: 13px;
+    border-radius: 5px;
+}
+.back{
+    position: absolute;
+    right: 98%;
+    bottom: 5%;
+    font-size: 25px;
+}

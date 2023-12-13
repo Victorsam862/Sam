@@ -1,0 +1,117 @@
+body{
+    background-image: url(/Kate\ Light\ Gray\ Abstract\ Texture\ Backdrop\ for\ Photography.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1{
+    color: rgb(20, 20, 156);;
+}
+.container{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    height: 70vh;
+    margin-top: 10%;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.form{
+    text-align: center;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+    
+}
+input{
+    padding-top:  5px;
+    width: 85%;
+    border: none;
+    border-bottom: solid 1px;
+}
+.text2{
+    position: absolute;
+    left: 210px;
+    top: 285px;
+}
+.text1{
+    position: absolute;
+    left: 210px;
+    top: 205px;
+    margin-top: 0px;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 1px solid;
+}
+.heading{
+    margin-top: 50px;
+}
+.pass{
+    margin-top: 60px;
+}
+button{
+    padding: 10px;
+    width: 160px;
+    margin-top: 30px;
+    background-color: rgb(20, 20, 156);
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.span{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.span:after, .span:before{
+    content: '';
+    padding: 0.6px;
+    flex: 1;
+    background-color: black;
+
+}
+.socials{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+.fa{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 2px grey;
+    margin: 0px 35px;
+}
+.go{
+    color: #EA4335;    
+    padding: 5px 8px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+.twi{
+    background-color: #1DA1F2;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+.eye{
+    position: absolute;
+    right: 220px;
+}
+.back{
+    position: absolute;
+    right: 77%;
+    font-size: 28px;
+    bottom: 80px;
+}
